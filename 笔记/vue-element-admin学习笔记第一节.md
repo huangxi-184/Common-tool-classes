@@ -169,3 +169,5 @@ const service = axios.create({
 ## 实现echart 的自适应
 ECharts 本身并不是自适应的，当你父级容器的宽度发生变化的时候需要手动调用它的 .resize() 方法。
  所有比如 el-tab，你可以监听 change 事件，当变化时找到这个图表之后调用它的 .resize() 方法。
+
+
